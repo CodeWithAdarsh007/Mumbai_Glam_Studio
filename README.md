@@ -346,7 +346,7 @@ All screenshots below were captured using the platform's premium dark theme.
 ## 🏠 Home Page
 
 <p align="center">
-  <img src="screenshots/home-page-dark.png" alt="Home Page" width="100%">
+  <img src="screenshots/home.png" alt="Home Page" width="100%">
 </p>
 
 <p align="center">
@@ -358,7 +358,7 @@ All screenshots below were captured using the platform's premium dark theme.
 ## 💇 Salon Discovery
 
 <p align="center">
-  <img src="screenshots/salon-directory-dark.png" alt="Salon Directory" width="100%">
+  <img src="screenshots/salon.png" alt="Salon Directory" width="100%">
 </p>
 
 <p align="center">
@@ -370,7 +370,7 @@ All screenshots below were captured using the platform's premium dark theme.
 ## 📅 Appointment Booking
 
 <p align="center">
-  <img src="screenshots/booking-page-dark.png" alt="Booking System" width="100%">
+  <img src="screenshots/booking.png" alt="Booking System" width="100%">
 </p>
 
 <p align="center">
@@ -382,7 +382,7 @@ All screenshots below were captured using the platform's premium dark theme.
 ## 👤 Customer Dashboard
 
 <p align="center">
-  <img src="screenshots/customer-dashboard-dark.png" alt="Customer Dashboard" width="100%">
+  <img src="screenshots/customer.png" alt="Customer Dashboard" width="100%">
 </p>
 
 <p align="center">
@@ -394,7 +394,7 @@ All screenshots below were captured using the platform's premium dark theme.
 ## 🏢 Salon Management Dashboard
 
 <p align="center">
-  <img src="screenshots/salon-dashboard-dark.png" alt="Salon Dashboard" width="100%">
+  <img src="screenshots/salon-dash.png" alt="Salon Dashboard" width="100%">
 </p>
 
 <p align="center">
@@ -406,7 +406,7 @@ All screenshots below were captured using the platform's premium dark theme.
 ## 🌙 Premium Dark Experience
 
 <p align="center">
-  <img src="screenshots/dark-mode-showcase.png" alt="Dark Mode Experience" width="100%">
+  <img src="screenshots/dark-mode.png" alt="Dark Mode Experience" width="100%">
 </p>
 
 <p align="center">
