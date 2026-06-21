@@ -443,6 +443,7 @@ Mumbai Glam Studio
 
 ### Members
 
+* Nitin Maurya
 * Adarsh Pandey
 
 ---
