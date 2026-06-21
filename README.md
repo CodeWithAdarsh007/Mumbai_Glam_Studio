@@ -1,65 +1,413 @@
-# 🌆 Mumbai Glam Studio 
-### *Where Mumbai Gets Its Glow On* 
+# 🌆 Mumbai Glam Studio
 
-Welcome to **Mumbai Glam Studio**, a luxury startup-style beauty salon marketplace designed specifically for Mumbaikars. Built in under 48 hours for the **SuperXgen AI Startup Buildathon 2026 — Beauty Salon Marketplace Challenge**, this platform bridges the gap between premium local beauty studios and busy customers looking for seamless, instant appointment management.
+<p align="center">
+  <img src="https://img.shields.io/badge/SuperXgen-AI%20Startup%20Buildathon%202026-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/City-Mumbai-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PHP-Backend-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MySQL-Database-red?style=for-the-badge">
+</p>
 
-🔗 **[Live Website Link](https://mumbai-glam-studio.infinityfree.me/)**  
-🎬 **[2-3 Minute Demo Video Link](YOUR_YOUTUBE_OR_LOOM_LINK_HERE)**
-
----
-
-## 🚀 The Core Value Proposition
-Mumbai's fast pace and unpredictable monsoons make scheduling beauty treatments a hassle. Mumbai Glam Studio solves this through:
-* **Locality-Based Discovery:** Seamlessly browse handpicked premium salons across specific Mumbai neighborhoods (Andheri, Bandra, Dadar, Powai, etc.).
-* **☔ Smart Monsoon-Proof (Rain-Safe) Filter:** A killer contextual feature allowing users to filter exclusively for salons featuring verified, fully covered indoor setups with zero weather-disruption risks.
-* **Dual-Dashboard Portal:** Fully decoupled, functional interfaces for both sides of the marketplace—enabling consumers to track their booking histories while giving service providers complete control over their operations.
-
----
-
-## 🛠️ Tech Stack & AI Rapid Workflow
-This project was aggressively prototyped and engineered using cutting-edge AI assistance to maximize execution velocity without compromising code quality.
-
-### Codebase & Systems
-* **Backend Engine:** Vanilla PHP (Object-Oriented, Prepared PDO / MySQLi statements for secure database transactions).
-* **Database Management:** MySQL (Relational tables handling dynamic stat aggregations, cross-referenced localities, booking states, and securely hashed passwords).
-* **Frontend Design:** Semantic HTML5, CSS3 Custom Properties (Design Tokens System), Native Vanilla JavaScript (Interactions & Event Handlers).
-
-### The AI Tech Stack
-* **DeepSeek (Core Architect):** Acted as the primary pair-programmer to write highly modular PHP routing, handle complex multi-table SQL queries, design secure authentication pipelines, and structure granular input form validations.
-* **Figma AI:** Leveraged for immediate structural wireframing and micro-interaction UX planning.
+<p align="center">
+  <h3 align="center">✨ Where Mumbai Gets Its Glow On ✨</h3>
+  <p align="center">
+    A luxury beauty salon marketplace connecting customers with trusted salons across Mumbai through seamless discovery, booking, and business management.
+  </p>
+</p>
 
 ---
 
-## ✨ Features Implemented
+## 🌐 Live Platform
 
-### 1. Unified Landing Page & Discovery Engine
-* **Dynamic Analytics Engine:** Runs real-time aggregation queries calculating verified salon counts, active neighborhoods, and community-wide average ratings.
-* **Premium UX Layering:** Fully customized interactive CSS/JS scripts providing a responsive, luxury perspective tilt on salon cards based on active mouse coordinates.
+### 🔗 Live Website
 
-### 2. Customer Dashboard (`customer_dashboard.php`)
-* **Real-time Status Categorization:** Auto-separates customer reservations into **Upcoming Bookings** and **Past Bookings** by comparing reservation dates against system timestamps.
-* **Visual Status Identifiers:** Native UI components mapping out real-time service tracking indicators (`Pending`, `Confirmed`, or `Completed`).
-* **Instant KPIs:** High-level metrics blocks counting upcoming commitments vs. past completed luxury treatments at a glance.
+https://mumbai-glam-studio.infinityfree.me/
 
-### 3. Salon & Admin Command Center (`dashboard.php`)
-* **Live Appointment Manager:** Allows business operators to interactively switch booking nodes from `Pending` ➡️ `Confirmed` ➡️ `Completed` directly through server-validated forms.
-* **Granular Data Sheets:** Surfaces customer identification records, service classification schemas, explicit booking windows, and formatted contact nodes (`customer_phone`).
-* **Administrative Governance Pipeline:** A conditional admin privilege overlay that surfaces an access-controlled verification console. Admins can audit unregistered storefront platforms and issue a global `✨ Verified` trust-badge or remove compliance-failing entities.
+### 🎥 Demo Video
+
+*(Add YouTube/Loom link here)*
 
 ---
 
-## 📂 Repository Architecture
+# 🏆 SuperXgen AI Startup Buildathon 2026
+
+### Challenge Category
+
+**Mumbai Salon Marketplace**
+
+Mumbai Glam Studio was built as a startup-style MVP during the SuperXgen AI Startup Buildathon 2026.
+
+The goal was simple:
+
+> Build a modern, scalable beauty marketplace that helps customers discover trusted salons while empowering salon owners with digital booking management tools.
+
+---
+
+# 💡 Problem Statement
+
+Mumbai is home to thousands of beauty salons, yet discovering reliable salons and managing appointments remains fragmented.
+
+Customers often face:
+
+* Lack of trusted salon discovery
+* No centralized booking platform
+* Difficulty comparing services
+* Inconsistent business visibility
+* Time-consuming appointment scheduling
+
+For salon owners:
+
+* Limited online presence
+* Poor customer retention systems
+* Manual appointment management
+
+Mumbai Glam Studio addresses these challenges through a unified marketplace experience.
+
+---
+
+# 🚀 Solution
+
+Mumbai Glam Studio is a full-stack beauty-tech marketplace that enables:
+
+### 👩 Customers
+
+* Browse salons by locality
+* Compare services
+* Book appointments instantly
+* Track upcoming bookings
+* View booking history
+* Manage appointments from a dedicated dashboard
+
+### 💇 Salon Owners
+
+* Register and list salons
+* Receive appointment requests
+* Manage bookings
+* Update booking statuses
+* Increase online visibility
+
+### 🛡 Platform Administrators
+
+* Verify salons
+* Moderate listings
+* Maintain marketplace quality
+
+---
+
+# ✨ Key Features
+
+## 🔍 Smart Salon Discovery
+
+Users can discover salons through:
+
+* Locality-based search
+* Dynamic salon directory
+* Premium salon cards
+* Service visibility
+* Rating display
+
+---
+
+## ☔ Rain-Safe Salon Filter
+
+Mumbai's monsoon season often disrupts plans.
+
+The platform includes a dedicated:
+
+### Rain-Safe Filter
+
+Customers can instantly discover salons that:
+
+* Operate fully indoors
+* Have weather-protected facilities
+* Minimize appointment disruption risks
+
+This feature is uniquely designed for Mumbai's lifestyle challenges.
+
+---
+
+## 📅 Appointment Booking System
+
+Customers can:
+
+* Select services
+* Choose dates
+* Pick time slots
+* Confirm bookings instantly
+
+The system prevents duplicate slot allocation and maintains booking integrity.
+
+---
+
+## 👤 Customer Dashboard
+
+A dedicated customer portal provides:
+
+* Upcoming Bookings
+* Past Bookings
+* Booking Status Tracking
+* Appointment History
+* Booking Statistics
+
+---
+
+## 🏢 Salon Dashboard
+
+Salon owners receive:
+
+* Appointment Management
+* Customer Information
+* Booking Status Updates
+* Booking Analytics
+* Operational Dashboard
+
+Status Flow:
+
 ```text
-├── assets/                  # Images, luxury favicons, and uploaded studio previews
-├── includes/                # Global re-usable components (nav.php, footer.php, header.php)
-├── config.php               # Core Database configuration wrapper 
-├── index.php                # High-conversion Marketplace landing page with dynamic metrics
-├── login.php                # Unified Dual-portal gateway (Customer/Salon/Admin)
-├── logout.php               # Secure session destruction module
-├── register.php             # Context-aware user/business onboarding layout
-├── salons.php               # Advanced marketplace filtering directory (Locality + Rain-Safe)
-├── schema.sql               # Production database schema and sample seed entries
-├── customer_dashboard.php   # Customer app-like tracking interface & booking stats
-├── dashboard.php            # Salon operator scheduling deck & Admin verification panel
-├── style.css                # Luxury Design System tokens (Light/Dark mode palettes)
-└── script.js               # Frontend micro-interactions & data formatting handlers
+Pending
+   ↓
+Confirmed
+   ↓
+Completed
+```
+
+---
+
+## 🛡 Admin Verification System
+
+Marketplace quality is maintained through an admin verification pipeline.
+
+Administrators can:
+
+* Verify salon registrations
+* Approve listings
+* Remove invalid salons
+* Maintain platform trust
+
+Verified salons receive enhanced credibility within the marketplace.
+
+---
+
+# 📊 Dynamic Marketplace Intelligence
+
+The landing page automatically calculates:
+
+* Total Verified Salons
+* Active Mumbai Localities
+* Community Average Ratings
+
+All metrics are dynamically generated using live database aggregation queries.
+
+---
+
+# 🎨 User Experience & Design
+
+Mumbai Glam Studio follows a luxury-first design philosophy.
+
+### Design Highlights
+
+* Luxury visual identity
+* Premium typography
+* Dark Mode support
+* Mobile-first responsiveness
+* Interactive animations
+* Glassmorphism-inspired search experience
+* Smooth micro-interactions
+
+---
+
+# 🤖 AI Development Workflow
+
+This project was built using an AI-first development approach.
+
+## AI Tools Used
+
+| Tool                  | Purpose                                   |
+| --------------------- | ----------------------------------------- |
+| ChatGPT               | Product planning, architecture, debugging |
+| DeepSeek              | Backend engineering assistance            |
+| Cursor                | AI-assisted coding                        |
+| Figma AI              | Wireframes and UX concepts                |
+| AI Prompt Engineering | Workflow acceleration                     |
+
+---
+
+## AI Assisted Development Areas
+
+### Product Design
+
+* Marketplace strategy
+* User journey planning
+* Feature prioritization
+
+### Development
+
+* PHP architecture
+* SQL query optimization
+* Authentication systems
+* Validation workflows
+
+### UX Design
+
+* Layout generation
+* Design refinement
+* Interaction improvements
+
+### Documentation
+
+* Technical documentation
+* Repository management
+* Buildathon presentation
+
+---
+
+# 🏗 Technical Architecture
+
+## Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* Font Awesome
+
+## Backend
+
+* PHP
+* Session Authentication
+* Role-Based Access Control
+
+## Database
+
+* MySQL
+
+## Hosting
+
+* InfinityFree
+
+## Version Control
+
+* Git
+* GitHub
+
+---
+
+# 🔒 Security Features
+
+The platform implements:
+
+* Password Hashing
+* Session Management
+* Prepared Statements
+* Input Sanitization
+* Authentication Middleware
+* Role-Based Authorization
+
+---
+
+# 📂 Project Structure
+
+```text
+Mumbai_Glam_Studio/
+│
+├── assets/
+│   ├── salons/
+│   └── images/
+│
+├── includes/
+│   ├── nav.php
+│   └── header.php
+│
+├── index.php
+├── salons.php
+├── booking.php
+├── login.php
+├── register.php
+├── dashboard.php
+├── customer_dashboard.php
+├── logout.php
+│
+├── config.php
+├── database.sql
+├── script.js
+├── style.css
+│
+└── README.md
+```
+
+---
+
+# 📸 Screenshots
+
+## Home Page
+
+Add screenshot here
+
+## Salon Directory
+
+Add screenshot here
+
+## Booking System
+
+Add screenshot here
+
+## Customer Dashboard
+
+Add screenshot here
+
+## Salon Dashboard
+
+Add screenshot here
+
+---
+
+# 📈 Future Roadmap
+
+### Phase 2
+
+* Online Payments
+* Customer Reviews
+* AI Salon Recommendations
+* SMS Notifications
+* Email Reminders
+
+### Phase 3
+
+* Mobile Application
+* Multi-City Expansion
+* Loyalty Programs
+* Subscription Services
+* Home Beauty Services
+
+---
+
+# 👥 Team
+
+### Team Name
+
+Mumbai Glam Studio
+
+### Members
+
+* Adarsh Pandey
+* Team Member 2
+* Team Member 3
+
+---
+
+# 🎯 Buildathon Deliverables
+
+| Deliverable               | Status |
+| ------------------------- | ------ |
+| Live Website              | ✅      |
+| GitHub Repository         | ✅      |
+| Demo Video                | ✅      |
+| AI Workflow Documentation | ✅      |
+| Startup MVP               | ✅      |
+
+---
+
+# ❤️ Built for SuperXgen AI Startup Buildathon 2026
+
+> This project demonstrates how AI-assisted development can rapidly transform an idea into a fully functional startup MVP within a limited timeframe.
+
+### Build. Innovate. Launch.
