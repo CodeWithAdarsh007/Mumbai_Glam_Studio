@@ -444,8 +444,6 @@ Mumbai Glam Studio
 ### Members
 
 * Adarsh Pandey
-* Team Member 2
-* Team Member 3
 
 ---
 
