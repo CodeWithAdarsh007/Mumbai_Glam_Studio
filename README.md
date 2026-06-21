@@ -316,6 +316,7 @@ Mumbai_Glam_Studio/
 ├── includes/
 │   ├── nav.php
 │   └── header.php
+│   └── footer.php
 │
 ├── index.php
 ├── salons.php
@@ -336,27 +337,81 @@ Mumbai_Glam_Studio/
 
 ---
 
-# 📸 Screenshots
+# 📸 Product Showcase
 
-## Home Page
+All screenshots below were captured using the platform's premium dark theme.
 
-Add screenshot here
+---
 
-## Salon Directory
+## 🏠 Home Page
 
-Add screenshot here
+<p align="center">
+  <img src="screenshots/home-page-dark.png" alt="Home Page" width="100%">
+</p>
 
-## Booking System
+<p align="center">
+  <em>Marketplace landing page featuring real-time statistics, locality search, and luxury-themed user experience.</em>
+</p>
 
-Add screenshot here
+---
 
-## Customer Dashboard
+## 💇 Salon Discovery
 
-Add screenshot here
+<p align="center">
+  <img src="screenshots/salon-directory-dark.png" alt="Salon Directory" width="100%">
+</p>
 
-## Salon Dashboard
+<p align="center">
+  <em>Discover verified salons across Mumbai with locality-based filtering and smart search capabilities.</em>
+</p>
 
-Add screenshot here
+---
+
+## 📅 Appointment Booking
+
+<p align="center">
+  <img src="screenshots/booking-page-dark.png" alt="Booking System" width="100%">
+</p>
+
+<p align="center">
+  <em>Book appointments seamlessly by selecting services, preferred dates, and available time slots.</em>
+</p>
+
+---
+
+## 👤 Customer Dashboard
+
+<p align="center">
+  <img src="screenshots/customer-dashboard-dark.png" alt="Customer Dashboard" width="100%">
+</p>
+
+<p align="center">
+  <em>Monitor upcoming appointments, booking history, and service status from a personalized dashboard.</em>
+</p>
+
+---
+
+## 🏢 Salon Management Dashboard
+
+<p align="center">
+  <img src="screenshots/salon-dashboard-dark.png" alt="Salon Dashboard" width="100%">
+</p>
+
+<p align="center">
+  <em>Manage customer bookings, update appointment status, and streamline salon operations.</em>
+</p>
+
+---
+
+## 🌙 Premium Dark Experience
+
+<p align="center">
+  <img src="screenshots/dark-mode-showcase.png" alt="Dark Mode Experience" width="100%">
+</p>
+
+<p align="center">
+  <em>A luxury dark interface designed to deliver a modern, elegant, and immersive user experience.</em>
+</p>
 
 ---
 
