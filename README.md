@@ -5,20 +5,19 @@
 <h1 align="center">Mumbai Glam Studio</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/SuperXgen-AI%20Startup%20Buildathon%202026-purple?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
-  <img src="https://img.shields.io/badge/City-Mumbai-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/PHP-Backend-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/MySQL-Database-red?style=for-the-badge">
-</p>
-
-<p align="center">
   <h3 align="center">✨ Where Mumbai Gets Its Glow On ✨</h3>
   <p align="center">
     A luxury beauty salon marketplace connecting customers with trusted salons across Mumbai through seamless discovery, booking, and business management.
   </p>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/SuperXgen-AI%20Startup%20Buildathon%202026-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/City-Mumbai-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PHP-Backend-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MySQL-Database-red?style=for-the-badge">
+</p>
 ---
 
 ## 🌐 Live Platform
