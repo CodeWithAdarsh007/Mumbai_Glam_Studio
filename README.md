@@ -1,4 +1,8 @@
-# 🌆 Mumbai Glam Studio
+<p align="center">
+  <img src="assets/logo.png" alt="Mumbai Glam Studio Logo" width="120">
+</p>
+
+<h1 align="center">Mumbai Glam Studio</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/SuperXgen-AI%20Startup%20Buildathon%202026-purple?style=for-the-badge">
