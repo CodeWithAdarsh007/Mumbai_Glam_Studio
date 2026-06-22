@@ -18,7 +18,6 @@
   <img src="https://img.shields.io/badge/PHP-Backend-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/MySQL-Database-red?style=for-the-badge">
 </p>
----
 
 ## 🌐 Live Platform
 
