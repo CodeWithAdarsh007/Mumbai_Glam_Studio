@@ -23,10 +23,6 @@
 
 https://mumbai-glam-studio.infinityfree.me/
 
-### 🎥 Demo Video
-
-*(Add YouTube/Loom link here)*
-
 ---
 
 # 🏆 SuperXgen AI Startup Buildathon 2026
