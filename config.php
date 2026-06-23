@@ -12,10 +12,10 @@ if (file_exists(__DIR__ . '/.env')) {
     }
 }
 
-define('DB_HOST', getenv('DB_HOST') ?: 'sql105.infinityfree.com');
-define('DB_USER', getenv('DB_USER') ?: 'if0_41717654');
-define('DB_PASS', getenv('DB_PASS') ?: 'TSECNSS123');
-define('DB_NAME', getenv('DB_NAME') ?: 'if0_41717654_nss_system');
+define('DB_HOST', getenv('DB_HOST') ?: 'Your_DB_Host_Name');
+define('DB_USER', getenv('DB_USER') ?: 'Your_DB_Username');
+define('DB_PASS', getenv('DB_PASS') ?: 'Your_DB_Pass');
+define('DB_NAME', getenv('DB_NAME') ?: 'Your_DB_Name');
 
 // OpenAI API key for AI recommendations (optional)
 define('OPENAI_API_KEY', getenv('OPENAI_API_KEY') ?: '');
