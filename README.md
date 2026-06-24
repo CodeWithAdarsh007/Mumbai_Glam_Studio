@@ -362,7 +362,7 @@ Reviews help create a trustworthy marketplace ecosystem.
 ---
 # 📸 Product Showcase
 
-All screenshots below were captured using the platform's premium dark theme.
+All screenshots below were captured using the platform's light theme.
 
 ---
 
