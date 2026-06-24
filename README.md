@@ -119,6 +119,7 @@ Mumbai Glam Studio is a full-stack beauty-tech marketplace that enables:
 Users can discover salons through:
 
 - Locality-based search
+- AI Search
 - Dynamic locality dropdown
 - Premium salon cards
 - Rating display
@@ -594,6 +595,9 @@ Mumbai Glam Studio follows secure development practices to protect user data and
 
 ```text
 Mumbai_Glam_Studio/
+│
+├── api/
+│   └── search.php
 │
 ├── assets/
 │   ├── favicon.png
