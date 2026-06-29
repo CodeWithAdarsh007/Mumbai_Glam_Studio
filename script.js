@@ -359,6 +359,9 @@
         document.head.appendChild(bnStyle);
     }
 
+    // --- Hero search redirect - REMOVED (conflicts with smart search) ---
+    // The old listener is removed to prevent redirects on mobile
+
     // ============================================
     // SMART SEARCH FUNCTIONALITY (Keyword-based)
     // ============================================
@@ -383,6 +386,12 @@
         const noResults = document.getElementById('ai-no-results');
         const errorDiv = document.getElementById('ai-error');
 
+        // Mobile fallback: if elements don't exist, redirect
+        if (!resultsContainer || !loading || !resultsGrid) {
+            window.location.href = 'salons.php?search=' + encodeURIComponent(query);
+            return false;
+        }
+
         // Show loading state
         resultsContainer.style.display = 'block';
         loading.style.display = 'flex';
@@ -399,7 +408,12 @@
 
         // Make AJAX call
         fetch('/api/search.php?query=' + encodeURIComponent(searchQuery) + '&limit=6')
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then(data => {
                 loading.style.display = 'none';
 
@@ -415,7 +429,6 @@
                     resultCount.textContent = `✨ Found ${data.results.length} matching salon(s) for "${data.query}"`;
                     noResults.style.display = 'none';
                     
-                    // Render salon cards
                     let html = '';
                     data.results.forEach((salon, idx) => {
                         const imageHtml = salon.image 
@@ -450,7 +463,6 @@
                     });
                     resultsGrid.innerHTML = html;
                     
-                    // Re-run animations
                     document.querySelectorAll('#ai-results-grid .animate-in').forEach(el => {
                         el.style.animationPlayState = 'running';
                     });
@@ -462,6 +474,12 @@
             .catch(error => {
                 loading.style.display = 'none';
                 errorDiv.style.display = 'block';
+                errorDiv.innerHTML = `<p style="color: var(--error); text-align: center; padding: 20px;">
+                    <i class="fas fa-exclamation-circle"></i> 
+                    ${error.message === 'Failed to fetch' 
+                        ? 'Network error. Please check your connection.' 
+                        : 'Something went wrong. Please try again.'}
+                </p>`;
                 console.error('Search Error:', error);
             });
 
@@ -527,7 +545,6 @@
             }
         }
     }
-
     // ============================================
     // SERVICE PRICE UPDATE (Booking Page)
     // ============================================
